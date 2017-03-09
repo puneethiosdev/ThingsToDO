@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RHTaskListTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    RHTaskListTableViewController *taskVC = [storyboard instantiateViewControllerWithIdentifier:@"taskListVC"];
+    
+    UINavigationController *navCon = [[UINavigationController alloc]initWithRootViewController:taskVC];
+    
+    self.window.rootViewController = navCon;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

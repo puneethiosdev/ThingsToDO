@@ -14,6 +14,9 @@
 		F4DBF6591CDB125F004381AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DBF6581CDB125F004381AF /* Images.xcassets */; };
 		F4DBF65C1CDB125F004381AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DBF65A1CDB125F004381AF /* LaunchScreen.xib */; };
 		F4DBF6681CDB1260004381AF /* ThingsToDo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF6671CDB1260004381AF /* ThingsToDo1Tests.m */; };
+		F4DBF6731CDB1B52004381AF /* RHTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF6721CDB1B52004381AF /* RHTask.m */; };
+		F4DBF6811CDB1FCB004381AF /* RHTaskListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF6801CDB1FCB004381AF /* RHTaskListTableViewController.m */; };
+		F4DBF6841CDB28DB004381AF /* RHAddTaskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF6831CDB28DB004381AF /* RHAddTaskTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		F4DBF6611CDB125F004381AF /* ThingsToDo1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThingsToDo1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DBF6661CDB1260004381AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4DBF6671CDB1260004381AF /* ThingsToDo1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThingsToDo1Tests.m; sourceTree = "<group>"; };
+		F4DBF6711CDB1B52004381AF /* RHTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTask.h; sourceTree = "<group>"; };
+		F4DBF6721CDB1B52004381AF /* RHTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTask.m; sourceTree = "<group>"; };
+		F4DBF67F1CDB1FCB004381AF /* RHTaskListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTaskListTableViewController.h; sourceTree = "<group>"; };
+		F4DBF6801CDB1FCB004381AF /* RHTaskListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTaskListTableViewController.m; sourceTree = "<group>"; };
+		F4DBF6821CDB28DB004381AF /* RHAddTaskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAddTaskTableViewController.h; sourceTree = "<group>"; };
+		F4DBF6831CDB28DB004381AF /* RHAddTaskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAddTaskTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				F4DBF6581CDB125F004381AF /* Images.xcassets */,
 				F4DBF65A1CDB125F004381AF /* LaunchScreen.xib */,
 				F4DBF64B1CDB125F004381AF /* Supporting Files */,
+				F4DBF6711CDB1B52004381AF /* RHTask.h */,
+				F4DBF6721CDB1B52004381AF /* RHTask.m */,
+				F4DBF67F1CDB1FCB004381AF /* RHTaskListTableViewController.h */,
+				F4DBF6801CDB1FCB004381AF /* RHTaskListTableViewController.m */,
+				F4DBF6821CDB28DB004381AF /* RHAddTaskTableViewController.h */,
+				F4DBF6831CDB28DB004381AF /* RHAddTaskTableViewController.m */,
 			);
 			path = ThingsToDo1;
 			sourceTree = "<group>";
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DBF6731CDB1B52004381AF /* RHTask.m in Sources */,
 				F4DBF6541CDB125F004381AF /* ViewController.m in Sources */,
 				F4DBF6511CDB125F004381AF /* AppDelegate.m in Sources */,
+				F4DBF6811CDB1FCB004381AF /* RHTaskListTableViewController.m in Sources */,
+				F4DBF6841CDB28DB004381AF /* RHAddTaskTableViewController.m in Sources */,
 				F4DBF64E1CDB125F004381AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +434,7 @@
 				F4DBF66D1CDB1260004381AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4DBF66E1CDB1260004381AF /* Build configuration list for PBXNativeTarget "ThingsToDo1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				F4DBF6701CDB1260004381AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
